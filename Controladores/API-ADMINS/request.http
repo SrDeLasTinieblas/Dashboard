@@ -1,0 +1,25 @@
+###
+GET http://localhost:3040/administradores HTTP/1.1
+
+###
+POST http://localhost:3040/administradores HTTP/1.1
+Content-Type: application/json
+
+{
+    "Precio": 122.0,
+    "Descripcion": "AAAAAA",
+    "Titulo": 4
+}
+
+###
+DELETE http://localhost:3040/administradores/10 HTTP/1.1
+
+###
+PUT http://localhost:3040/administradores/44 HTTP/1.1
+Content-Type: application/json
+
+{
+    "Precio": 120.0,
+    "Descripcion": "AAAAAAAAA",
+    "Titulo": "TITULOOOO"
+}

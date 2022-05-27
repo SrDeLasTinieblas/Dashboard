@@ -1,0 +1,20 @@
+.contenedor-cards{
+    position: relative;
+    /*border: 1px solid rgb(255, 0, 0);*/
+    margin-top: 10px;
+    height: 10%;
+    width: 40%;
+    left: 65%;
+}
+.reporte{
+    position: relative;
+    margin-top: 350px;
+    left: -10%;
+}
+.letras{
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(255, 0, 179);
+}
+
+

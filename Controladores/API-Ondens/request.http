@@ -1,0 +1,43 @@
+###
+GET http://localhost:7000/orden_detalles/orden HTTP/1.1
+
+
+###
+POST http://localhost:7000/orden_detalles HTTP/1.1
+Content-Type: application/json
+{
+    "Nombres": "Pruebwwwa",
+    "Apellidos": "Prueba",
+    "Email": "Pruebwwwa@gmail.com",
+    "Telefono": 666-666-666,
+    "Direccion": "Callwwwwwe La Aldea Pitufa",
+    "Direccion_Opcional": "La Aldea Pitufa Optional",
+    "Nota_pedido": "Nota Prueba",
+    "Fecha_Entrega": "04/10/21",
+    "IntervaloTiempo": "Desde: 2:00 pm - Hasta: 4:00 pm",
+    "nombre_Pedido": "Prueba",
+    "Precio:" : "100",
+
+}
+
+###
+DELETE http://localhost:7000/orden_detalles/10 HTTP/1.1
+
+###
+PUT http://localhost:7000/orden_detalles/1 HTTP/1.1
+Content-Type: application/json
+
+{
+    "id": 1,
+    "Nombres": "Prueba",
+    "Apellidos": "Prueba",
+    "Email": "Prueba@gmail.com",
+    "Telefono": 666-666-666,
+    "Direccion": "Calle La Aldea Pitufa",
+    "Direccion_Opcional": "La Aldea Pitufa Optional",
+    "Nota_pedido": "Nota Prueba",
+    "Fecha_Entrega": "04/10/21",
+    "IntervaloTiempo": "Desde: 2:00 pm - Hasta: 4:00 pm",
+}
+
+

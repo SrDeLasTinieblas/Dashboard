@@ -1,0 +1,10 @@
+.container-pedidos table{
+        position: absolute;
+        /*border-collapse: collapse;
+        border: 1px solid #ddd;*/
+        left: 0%;
+        font-size: 15px;
+}
+
+
+
